@@ -1,0 +1,29 @@
+:root {
+    --main-color: #00eeff;
+    --text-color: #ffffff;
+    --bg-color-01: #1f242d;
+    --bg-color-02: #323946;
+    --color-00: #0000001a;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+body{
+    background-color: var(--bg-color-01);
+    color:var(--text-color);
+}
